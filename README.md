@@ -56,4 +56,24 @@ Create a new remote
 `git push origin <branch name>`
 -u flag is used to set origin as the upstream remote in your git config so git pull can be used without any arguments in the future.
 
-change
+#### Merge
+
+get remote repositories
+`git fetch`
+merge that repository  
+`git merge origin/master`
+
+Combine the fetch & merge from the previous section with the pull command.
+`git pull` need to do -u command first or specify remote branch `git pull origin <branch>`
+
+#### clone
+
+`git clone <repo-url> <local-directory>`
+
+#### Branch
+
+list of all branches
+`git branch`
+
+rename your branch
+`git branch -M <new name>`
